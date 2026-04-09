@@ -27,10 +27,12 @@ if st.button("Prediksi"):
     else:
         st.error("Siswa kemungkinan TIDAK LULUS ❌")
 
-# confidence
-proba = model.predict_proba(input_data)
+    # confidence
+    proba = model.predict_proba(input_data)
 
-st.write(f"Probabilitas Lulus: {proba[0][1]*100:.2f}%")
+    st.write(f"Probabilitas Lulus: {proba[0][1]*100:.2f}%")
 
 st.markdown("---")
 st.caption("Model: Random Forest | Dibuat oleh irmanj")
+
+# streamlit run app.py
