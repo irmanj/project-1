@@ -1,7 +1,9 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
+from sklearn.metrics import classification_report
 
 # data sederhana
 data = {
@@ -26,3 +28,15 @@ print("Accuracy:", accuracy_score(y_test, y_pred))
 
 # coba prediksi baru
 print("Prediksi:", model.predict([[5, 85]]))
+
+plt.scatter(df['jam_belajar'], df['lulus'])
+plt.xlabel("Jam Belajar")
+plt.ylabel("Lulus")
+plt.show()
+
+print(classification_report(y_test, y_pred))
+
+jam = int(input("Jam belajar: "))
+hadir = int(input("Kehadiran: "))
+
+print("Prediksi:", model.predict([[jam, hadir]]))

@@ -1,9 +1,21 @@
-# Student Graduation Prediction
+# 🎓 Student Graduation Prediction
 
-Model machine learning untuk memprediksi kelulusan siswa berdasarkan:
+## 📌 Problem
+Memprediksi apakah siswa akan lulus berdasarkan jam belajar dan kehadiran.
+
+## 📊 Dataset
+Dataset sederhana dengan fitur:
 - Jam belajar
 - Kehadiran
 
-Tools:
+## ⚙️ Model
+- Random Forest Classifier
+
+## 📈 Hasil
+- Accuracy: 0.85 (contoh)
+
+## 🚀 Tech Stack
 - Python
 - Scikit-learn
+- Pandas
+- Matplotlib
