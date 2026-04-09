@@ -32,6 +32,7 @@ print("Prediksi:", model.predict([[5, 85]]))
 plt.scatter(df['jam_belajar'], df['lulus'])
 plt.xlabel("Jam Belajar")
 plt.ylabel("Lulus")
+plt.title("Hubungan Jam Belajar vs Kelulusan")
 plt.show()
 
 print(classification_report(y_test, y_pred))
