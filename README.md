@@ -19,3 +19,8 @@ Dataset sederhana dengan fitur:
 - Scikit-learn
 - Pandas
 - Matplotlib
+
+## 📂 Struktur Project
+- main.py
+- data.csv
+- model.pkl
