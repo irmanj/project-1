@@ -1,4 +1,5 @@
 # 🎓 Student Graduation Prediction
+Project ini mensimulasikan sistem prediksi performa siswa yang bisa digunakan sebagai early warning system di dunia pendidikan.
 
 ## 📌 Problem
 Memprediksi apakah siswa akan lulus berdasarkan jam belajar dan kehadiran.
@@ -24,3 +25,14 @@ Dataset sederhana dengan fitur:
 - main.py
 - data.csv
 - model.pkl
+
+## 🌐 Demo Aplikasi
+Aplikasi web untuk memprediksi kelulusan siswa menggunakan Machine Learning.
+
+## 📷 Tampilan Aplikasi
+![App Screenshot](app.png)
+
+## ⚙️ Fitur
+- Input jam belajar & kehadiran
+- Prediksi kelulusan
+- Probabilitas hasil
